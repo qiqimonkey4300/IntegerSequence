@@ -25,7 +25,9 @@ public class ArraySequence implements IntegerSequence{
       throw new NoSuchElementException("There is no next element.");
     } else {
       currentIndex++;
-      return currentIndex - 1;
+      return data[currentIndex - 1];
     }
   }
+
+  
 }

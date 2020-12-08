@@ -15,5 +15,6 @@ public class Tester {
         while(as.hasNext()){
           System.out.print(as.next()+", ");
         }
+        
       }
 }
